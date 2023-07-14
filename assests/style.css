@@ -73,9 +73,8 @@ nav button , nav #language{
 }
 
 .h1text{
-    position: relative;
-    left: 170px;
-    width: 1000px;
+    text-align: center;
+    width: 100%;
 
 }
 
@@ -226,4 +225,27 @@ hr{
     font-weight: lighter;
     font-size: 23px;
     width: 450px;
+}
+
+.questions h1{
+    text-align: center;
+}
+
+.questions button{
+    background: rgb(45, 45, 45);
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Mitr';
+    width: 1000px;
+    text-align: left;
+    margin: 5px 450px;
+    padding: 25px;
+}
+
+p{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
 }
