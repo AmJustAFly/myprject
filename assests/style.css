@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+button{
+    font-family: 'Mitr';
+}
+
 body{
     background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url(../images/header-image.png) ;
     color: white;
@@ -73,8 +77,9 @@ nav button , nav #language{
 }
 
 .h1text{
-    text-align: center;
-    width: 100%;
+    position: relative;
+    left: 170px;
+    width: 1000px;
 
 }
 
@@ -227,25 +232,58 @@ hr{
     width: 450px;
 }
 
-.questions h1{
+.qanda{
+    background: #000;
     text-align: center;
+    padding-bottom: 80px;
 }
-
-.questions button{
-    background: rgb(45, 45, 45);
-    border: none;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Mitr';
-    width: 1000px;
+.question{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.question button{
+    width: 70%;
+    height: auto;
+    padding: 30px;
     text-align: left;
-    margin: 5px 450px;
-    padding: 25px;
+    cursor: pointer;
+    border: none;
+    background: #2d2d2d;
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    transition: .3s;
 }
 
-p{
-    text-align: center;
+.question button:hover{
+    background-color: #4e4e4e;
+}
+
+.qanda p{
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 25px;
+}
+
+footer{
+    background: #000;
+    color: #858585;
+    padding: 70px 0 70px 0;
+}
+
+.footermenu{
+    margin-left: 200px;
+    
+}
+
+a{
+    color: #858585;
+}
+
+.linkmenu ul{
+    display: grid;
+    grid-template-rows: 14% 14% 14% 14% 14% 14%;
+    grid-template-columns: 33% 33% 33%;
+    row-gap: 10px;
+    padding: 40px 0;
 }
