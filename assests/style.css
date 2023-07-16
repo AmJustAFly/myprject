@@ -77,10 +77,8 @@ nav button , nav #language{
 }
 
 .h1text{
-    position: relative;
-    left: 170px;
-    width: 1000px;
-
+    margin: auto;
+    width: 60%;
 }
 
 .headcontent h2{
